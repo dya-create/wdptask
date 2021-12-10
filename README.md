@@ -4,7 +4,7 @@
 
 Technical Environment: HTML, CSS, JS
 
-####Features: 
+### Features: 
 
 add tasks on calender,
 reset the schedule 
