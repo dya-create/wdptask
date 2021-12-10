@@ -18,6 +18,8 @@ Description: It lets the user select task and put it on schduele. The user can d
 <body>
     <div class="container">
 
+        <button onclick="info()" >About the App</button>
+
         <h1>Task Scheduler</h1>
 
         <div class="task__container">
@@ -132,6 +134,12 @@ Description: It lets the user select task and put it on schduele. The user can d
         </div>
 
     </div>
+
+    <script>
+        function info() {
+          alert("This is a task scheduler web app in which there is list of task that can be added on calender. The calender shows days from Monday to Sunday. And also different timing. You can reset the schedule and deselect all the task. BUG: deselecting does not stop working after deselecting.");
+        }
+        </script>
 
     <script src="main.js"></script>
 </body>
