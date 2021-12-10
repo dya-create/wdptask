@@ -7,3 +7,5 @@ Features:
 
 add tasks on calender,
 reset the schedule 
+
+Notes: Delect button is not implemented fully. It only deselects the task, it wont stop functioning.
