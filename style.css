@@ -34,6 +34,7 @@ h1,h3{
     padding: 10px;
 }
 
+/* making the list of task look nicer  */
 .task__container .task__name{
     padding: 10px;
     margin: 0 10px;
@@ -41,29 +42,29 @@ h1,h3{
     cursor: pointer;
 }
 
+/* giving shadoww wheen the task is selected */
 .task__name.selected{
     box-shadow:0px 0px 0px 2px black inset;
 }
 
+
 #deselect{
-    background-color: #1d3557;
+    background-color:deeppink;
     color: white;
 }
 
 
-/* SCHEDULE DESIGN */
+/* shhedule design */
 .schedule__container{
     background: linear-gradient(#ebf4f5, #b5c6e0);
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    
 }
 
 .days__container{
     display: flex;
-    
-    
-    
+       
 }
 
 /* corner of the table */
@@ -73,6 +74,7 @@ h1,h3{
     margin: 2px;
 }
 
+/* settings for rows of days */
 .day{
     width: 100px;
     border: solid 4px ;
@@ -85,6 +87,7 @@ h1,h3{
     
 }
 
+/* making it look horizontal , gives us table instead of 6 different tables*/
 .part__day{
     display: flex;
     border: solid 2px ;
@@ -102,6 +105,7 @@ h1,h3{
     margin: 2px;
 }
 
+/* each coloumn */
 .task{
     background-color: white;
     height: 70px;
@@ -127,9 +131,6 @@ h1,h3{
     outline: none;
 }
 
-.deleteBtn:hover{
-    background-color: #eee;
-}
 
 /* Pop up */
 .pop-up__container{
